@@ -1,0 +1,85 @@
+.header__online_experience .header__navbar{
+    height: 80px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.header__online_experience .header__user-home{
+    color: #000;
+}
+
+.header__online_experience .header__user .header__navbar-list-item:hover{
+    background-color: #F7F7F7;
+}
+
+/* Banner Online Experience */
+.banner__online-exp{
+    height: 576px;
+    background-image: url(../../img/OnlineExperience/bkg/backgroundmain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -95px -15px;
+}
+
+.banner__background{
+    padding: 80px 0;
+    width: 360px;
+}
+
+.banner-title h1 {
+    font-size: 52px;
+}
+
+.banner-content span{
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.25px;
+    margin: 16px 0 24px;
+}
+/* Category online experience */
+.category__online-exp{
+    padding: 16px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.filter__exp{
+    display: flex;
+    align-items: center;
+}
+
+.filter__exp-item{
+    padding-right: 8px;
+}
+
+.filter__exp-item button{
+    padding: 8px 16px;
+    border-radius: 40px;
+    border: 1px solid #D5D5D5;
+    background-color: #fff;
+}
+
+.filter__exp-bo-loc .filter__exp-btn{
+    display: flex;
+    align-items: center;
+}
+
+.filter__exp-bo-loc-icon{
+    margin-right: 8px;
+}
+
+.filter__exp-quy-mo-nhom {
+    border-right: 2px solid #d5d5d5;
+}
+
+/* App Main */
+.app-main{
+    border-top: 2px solid #d1d1d1;
+    border-bottom: 2px solid #d1d1d1;
+    padding: 40px 0;
+}
+
+/* In the spirit of the Olympics */
+sprit-olympics
+sprit-olympics-title
+sprit-olympic-title-name
+sprit-olympic-display

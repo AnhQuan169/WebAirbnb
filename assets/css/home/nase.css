@@ -1,0 +1,67 @@
+:rool{
+    --primary-color: #fff;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #222222;
+}
+
+html{
+    font-size: 16px;
+    line-height: 1.6 rem;
+    box-sizing: border-box;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul,li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+/* ::-webkit-scrollbar { 
+    display: none; 
+} */
+
+.grid{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Phân chia cột dữ liệu */
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.grid__column-3{
+    width: 25%;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: -8px;
+}
+
+.grid__column-4{
+    padding-left: 8px;
+    padding-right: 8px;
+    width: calc(100%/3);
+}
+
+.main-title{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 52px;
+    padding-bottom: 25px;
+}
+
+/*  Dấu chấm giữa
+&middot;
+&#183;
+&#xb7; */
+
